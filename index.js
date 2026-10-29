@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import express from 'express';
 import mongoose from 'mongoose';
+import * as Models from "./models/index.js"
 
 const app = express();
 const PORT = process.env.PORT || 3000;
